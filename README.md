@@ -4,7 +4,7 @@ This project is a simple login and registration system implemented in PHP withou
 
 ## Features
 
-![Image 1](images/image1.png)
+![Image 1](Screenshot_4-3-2024_61241_localhost.jpeg)
 
 - User registration: Users can create a new account by providing their username, email, and password.
 - User login: Registered users can log in with their username and password.
@@ -31,6 +31,8 @@ This project is a simple login and registration system implemented in PHP withou
 4. Open your web browser and navigate to `http://localhost:8000` to access the project.
 
 ## Usage
+
+![Image 1](Screenshot_4-3-2024_61241_localhost.jpeg)
 
 1. Register: Navigate to the registration page (`http://localhost/login-registration-php/register.php`) and fill in the registration form with your details.
 2. Login: Once registered, you can log in on the login page (`http://localhost/login-registration-php/login.php`) using your username and password.
