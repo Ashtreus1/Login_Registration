@@ -32,7 +32,7 @@ This project is a simple login and registration system implemented in PHP withou
 
 ## Usage
 
-![Image 1](Screenshot_4-3-2024_61241_localhost.jpeg)
+![Image 1](Screenshot_4-3-2024_6134_localhost.jpeg)
 
 1. Register: Navigate to the registration page (`http://localhost/login-registration-php/register.php`) and fill in the registration form with your details.
 2. Login: Once registered, you can log in on the login page (`http://localhost/login-registration-php/login.php`) using your username and password.
