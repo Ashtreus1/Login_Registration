@@ -1,8 +1,10 @@
-# Login and Registration System
+# Simple Login and Registration System
 
 This project is a simple login and registration system implemented in PHP without using MySQL or Bootstrap. It stores user data in a file for educational purposes.
 
 ## Features
+
+![Image 1](images/image1.png)
 
 - User registration: Users can create a new account by providing their username, email, and password.
 - User login: Registered users can log in with their username and password.
