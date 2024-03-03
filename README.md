@@ -52,5 +52,5 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## Credits
 
-- Keiru Dev
+- This was developed by Keiru Dev
 
