@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    background-color: #222; 
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    max-width: 768px;
+    min-height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .form-container {
+    flex: 1;
+    padding: 40px;
+}
+
+.container .form-container h1, h2 {
+    margin: 20px;
+    font-size: 28px; 
+}
+
+.container .form-container input {
+    background-color: #333; 
+    border: none;
+    margin: 8px 0;
+    padding: 15px 20px;
+    font-size: 16px; 
+    border-radius: 5px;
+    width: 100%;
+    color: #fff; 
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.container .form-container input:hover {
+    background-color: #444; 
+}
+
+.container .form-container button {
+    background-color: #00bcd4; 
+    color: #fff;
+    font-size: 16px; 
+    padding: 15px 40px; 
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container .form-container button.hidden {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.container .form-container button:hover {
+    background-color: #00a6b4; 
+}
+
+.container .comment-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #333; 
+    border-left: 1px solid #444; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .comment-container .comment {
+    text-align: center;
+}
+
+.container .comment-container .comment h1 {
+    font-size: 28px; 
+    margin-bottom: 10px;
+}
+
+.container .comment-container .comment p {
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+.container .comment-container .comment button {
+    background-color: #00bcd4; 
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 40px; 
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container .comment-container .comment button.hidden {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.container .comment-container .comment button:hover {
+    background-color: #00a6b4;
+}
+
+.alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #512da8; 
+    color: #fff; 
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000;
+}
+  
+.show-alert {
+    display: block;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}        
+
+
+/* Dark mode modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 700px; /* Set maximum width */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
