@@ -9,7 +9,7 @@ This project is a simple login and registration system implemented in PHP withou
 - Password hashing: Passwords are securely hashed before storing them in the user data file.
 - Session management: The system uses PHP sessions to keep users logged in across pages.
 - Logout: Users can log out of their account, terminating the session.
-- Forgot Password: Users can reset their password if forgotten by verifying their identity through a verification code sent to their registered email address.
+- Forgot Password: Users can reset their password if forgotten by verifying their identity through a verification their username if it is exist.
 
 ## Installation
 
