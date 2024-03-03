@@ -32,12 +32,12 @@ This project is a simple login and registration system implemented in PHP withou
 
 1. Register: Navigate to the registration page (`http://localhost/login-registration-php/register.php`) and fill in the registration form with your details.
 2. Login: Once registered, you can log in on the login page (`http://localhost/login-registration-php/login.php`) using your username and password.
-3. Forgot Password: If you forget your password, click on the "Forgot Password" link on the login page, enter your username, verify your identity through a verification code sent to your email, and update your password.
+3. Forgot Password: If you forget your password, click on the "Forgot Password" link on the login page, and verify your identity through a verification of your username, and update your password.
 4. Logout: Click the "Logout" button on any page to log out of your account.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
